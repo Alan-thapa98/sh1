@@ -1,0 +1,921 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        "Courier New",
+        monospace;
+    --font-family-sans-serif: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,
+        Menlo,
+        Monaco,
+        Consolas,
+        "Liberation Mono",
+        "Courier New",
+        monospace;
+}
+
+body {
+    font-family: inherit;
+
+    background: rgb(34, 33, 33);
+
+}
+
+/*scrool bar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Scrollbar track like a railw */
+::-webkit-scrollbar-track {
+    background-color: rgb(179, 162, 162);
+    /*    <!-- these is also editable; -->*/
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #d8d8d8f5;
+    ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d8d8d8f5;
+
+}
+
+input {
+    height: 32px;
+    width: 400px;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+
+
+}
+
+.input-search:hover {
+    border: 2px solid blue;
+}
+
+.input:hover {
+    border: 2px solid blue;
+}
+
+.search-btn {
+    margin-left: 0px;
+    height: 30px;
+    margin-right: 0px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+::placeholder {
+    color: #222222;
+    padding: 20px;
+
+}
+
+.different-icon-decorations {
+    color: #fff;
+    font-size: 1.8rem;
+
+}
+
+
+
+    <div class="col-md-8 ">
+                <video src="../static/vid/The Blue Sword _ Episode 1 - 12 _ English Dub (ソードアート・オンライン) [u02j11ZBiVM].mp4" width="100%" height="440" controls
+                    autoplay style="outline: none;"></video>
+                <div class="row m-0 p-0 ">
+                    <div class="col-lg-4 col-12">
+                        <h6 style="font-size: .8rem; margin-left:20px; color:#999999">1,10,10,234 Viwes Oct 23
+                            2020</h6>
+                        <span style="font-size: .8rem; margin-left:20px; color:#d4cece">
+                            <span>watching</span> <span>: 400 </span>
+                            <!-- peoples now -->
+                        </span>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <p class=" pl-1" style="font-size: 1rem; font-weight:bold;">
+                     The  Sword Art Online_ Episode 1 - 12 _ English Dub (ソードアート・オンライン) [u02j11ZBiVM]
+                        </p>
+                    </div>
+                </div>
+                <div style="padding:0px; margin:2px; " class="row  hover-icon-of-like-donwload-herat-row">
+                    <div class="col-2 m-0 p-0 "><a href="channel" class="channel-icon1">
+                            <a href="./channel">
+                                <img style="border-radius: 60px;" src="../static/pic/f4.jpg" alt="al picture"
+                                    height="36" width="36" class="class thumanil-img1">
+                            </a>
+                            <a href="./channel" style="text-decoration: none; font-weight: bold;">Anime Tea</a>
+                    </div>
+                    <div class="col-2 pl-4 hover-icon-of-like-donwload-herat">
+                        <i class="fa mt-2  fa-heart text-danger" aria-hidden="true"></i><span>36K Heart</span>
+                    </div>
+
+                    <div download="../static/vid/1 HOUR SPECIAL NIGHTCORE ♫ BEST NIGHTCORE OF ALL TIME ★ TOP 20 NIGHTCORE SONGS [iA7uQCruBgU].mp4"
+                        class="col-2   pl-4 hover-icon-of-like-donwload-herat">
+                        <a href="#"
+                            download="../static/vid/1 HOUR SPECIAL NIGHTCORE ♫ BEST NIGHTCORE OF ALL TIME ★ TOP 20 NIGHTCORE SONGS [iA7uQCruBgU].mp4"><i
+                                class="fa mt-2 fa-download" aria-hidden="true"></i><span>300K</span></a> </div>
+                    <div class="col-2 pl-4 hover-icon-of-like-donwload-herat">
+                        <i class="fa mt-2 mt-2  fa-share text-primary" aria-hidden="true"></i> <span>234</span>
+                    </div>
+                    <div class="col-2 pl-4  hover-icon-of-like-donwload-herat">
+                        <i class="fa fa-plus-square mt-2 "></i>
+                        <span>3000 Save</span>
+                    </div>
+                    <div class="col-2  ">
+                        <button class="hover-icon-of-like-donwload-sub-btn">
+                            <span class="mt-1 text-light">Subscribed</span>
+                            <i class="fa fa-bell hover-icon-of-like-donwload-herat mt-1" aria-hidden="true"></i>
+                        </button>
+
+
+                    </div>
+                </div>
+                <style>
+                    .hover-icon-of-like-donwload-herat-row {
+                        height: 40px;
+                        color: #fff;
+                        cursor: pointer;
+                        font-weight: 400;
+                        margin-top: 3px;
+                        margin-bottom: 3px;
+
+
+                    }
+
+
+
+                    .hover-icon-of-like-donwload-herat:hover {
+
+                        border-radius: 5px;
+                        background: rgb(94, 90, 90);
+
+
+
+                    }
+
+                    .hover-icon-of-like-donwload-sub-btn {
+
+                        border-radius: 5px;
+                        background: red;
+                        align-items: center;
+                        justify-content: center;
+                        padding-left: 6px;
+                        padding-right: 6px;
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+
+
+
+
+                    }
+                </style>
+
+                <hr style="background: rgb(94, 90, 90);">
+                <div class="row m-1" style="color: #f5f5f5;">
+                    <p>Discription:
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus tempore, aliquid
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nihil qui. Consectetur, iusto
+                        Anim pariatur cliche reprehenderi
+                        <span style=" color:blue; font-weight: 500; cursor: pointer;">more..</span>
+                    </p>
+                </div>
+                <hr style=" margin-bottom: 2px;">
+                <h6 style="  font-weight: bold;" class="text-light">Comments: 1113</h6>
+
+                <div class="row text-center">
+                    <div class="col-3"><a href="channel" class="channel-icon1">
+                            <a href="channel">
+                                <img style="border-radius: 60px;" src="../static/pic/shu.png" alt="al picture"
+                                    height="36" width="36" class="class thumanil-img1">
+                            </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="text " placeholder="Comment" class="input-commment">
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-outline-primary">Send <span>
+                                <i class="fab fa-telegram-plane fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <br>
+                <!-- <h6 class="text-light class-hr-down">These Channel videos:Uplodes</h6>
+                <div class="row mt-2">
+                 <section class="img-slider">
+                        <div id="carouselExampleCaptionstop" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row my-1">
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/al.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/dd.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/zombi.png" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/shu.png" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid1.jfif" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid2.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row my-1">
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/al.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/hsd.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/f1.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/f2.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/f3.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/f4.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row my-1">
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid2.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/punch.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid5.jfif" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid6.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid7.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-1.5 col-1.5 col-lg-1.5">
+                                            <a type="button" href="">
+                                                <img style=" margin: 1px; " class="img-circle "
+                                                    src="../static/pic/vid8.jpg" width="150px" height="130px">
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="carousel-caption d-none d-md-block">
+
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptionstop" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptionstop" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                    </section>
+                </div> -->
+
+
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f4.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Alisha 1
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita officia nobis
+                            velit,
+                            hic, eveniet <span style=" color:blue; font-weight: 500; cursor: pointer;">more..</span>
+                        </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">123K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Ummmmmm... Nice </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3 text-primary" style=" cursor: pointer;">3K <i
+                                    class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f2.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Rajesh Baniya 3
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            It you be Nice if you upolade all the videos in full Screen </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Awsomae video bro I want more </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f4.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Alisha 1
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            thanks bro i am really like you new epsiode of video it is always nice to wacth on you
+                            chhanel<span style=" color:blue; font-weight: 500; cursor: pointer;">more..</span>
+                        </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">123K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Nice bro... </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">2 <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f3.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Rajesh Baniya 3
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Nice but upolade all the videos in full Screen </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Awsomae bro I want more </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;"> <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f4.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Alisha 1
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita officia nobis
+                            velit,
+                            hic, eveniet <span style=" color:blue; font-weight: 500; cursor: pointer;">more..</span>
+                        </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">123K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Ummmmmm... Nice </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3 text-primary" style=" cursor: pointer;">3K <i
+                                    class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f2.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Rajesh Baniya 3
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            It you be Nice if you upolade all the videos in full Screen </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Awsomae video bro I want more </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f4.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Alisha 1
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            thanks bro i am really like you new epsiode of video it is always nice to wacth on you
+                            chhanel<span style=" color:blue; font-weight: 500; cursor: pointer;">more..</span>
+                        </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">123K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Nice bro... </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">2 <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f3.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Rajesh Baniya 3
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Nice but upolade all the videos in full Screen </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;">1K <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+                <div class="row  my-3 shareits-comment-mediaquiery-mobile-display-none">
+                    <div class="col-3 text-center">
+                        <a href="channel">
+                            <img style="border-radius: 60px;" src="../static/pic/f1.jpg" alt="al picture" height="36"
+                                width="36" class="class thumanil-img1">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a href="#">
+                            <span style="font-weight: bold; text-decoration: none;" class="text-light">Chahah 23
+                                day
+                                Ago</span></a>
+                        <br>
+                        <p class="m-0 p-0">
+                            Awsomae bro I want more </p>
+                        <div class="row" style="margin-top: 1px; ">
+                            <div class="col-3" style=" cursor: pointer;">3K <i class="fa  fa-thumbs-up"></i></div>
+                            <div class="col-3" style=" cursor: pointer;"> <i class="fa  fa-thumbs-down"></i></div>
+                            <div class="col-3 text-primary " style="font-weight: bold; cursor: pointer;">123replays
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="btn btn-danger text-light">
+                            <i class="fa fa-heart fa-1x" aria-hidden="true"></i></span></div>
+                    </div>
+                </div>
+            </div>

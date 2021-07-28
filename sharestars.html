@@ -1,0 +1,2931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareit's stares </title>
+    <link rel="stylesheet" href="boostrap file/css/bootstrap.css">
+    <link rel="stylesheet" href="boostrap file/css/bootstrap.min.css">
+
+<body>
+
+    <!-- links of all the websit -->
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap.css">
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../boostrap file/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./bootstyle.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!--  end of links of all the websit -->
+    <!--  fontawasome -->
+    <script src="../boostrap file/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <!-- end of fontawasome -->
+
+    <body style="text-transform: capitalize;">
+        <h1 class="text-center text-uppercase">filter function of javascript</h1>
+        <div class="container mt-2">
+            <form class="form-inline my-2 my-lg-0"></form>
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter the number that you watn find you " id="myInput" onkeyup="searchfun()"
+                aria-label="Search">
+            </form>
+        </div>
+
+        <!-- ************************************************************************************ -->
+
+        <table id="Table">
+            <tr class="header">
+                <th class="px-4" style="width: 30%;">S.N</th>
+                <th class="px-4" style="width: 40%;">Name </th>
+                <th class="px-4" style="width: 40%;">Bio</th>
+                <th class="px-4" style="width: 30%;">Hearts </th>
+                <th class="px-4" style="width: 30%;">Likes </th>
+                <th class="px-4" style="width: 30%;">Posts</th>
+                <th class="px-4" style="width: 30%;">Subscribers</th>
+                <th class="px-4" style="width: 30%;">Follers</th>
+                <th class="px-4" style="width: 30%;">twites</th>
+                <th class="px-4" style="width: 30%;">Community </th>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">2</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">3</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">4</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">5</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">6</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">7</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">8</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">9</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">10</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">11</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">12</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">13</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">14</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">15</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">16</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">17</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">18</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">19</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">20</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">21</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">22</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">23</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">24</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">25</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">26</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">27</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">28</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">29</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">30</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">31</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">32</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">32</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">34</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">35</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">36</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">37</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">38</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">39</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">40</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">41</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">42</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">43</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">44</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">45</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">46</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">47</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">48</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">49</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">50</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class=" px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class=" px-4 "><span>200.1K</span></td>
+                <td class=" px-4 "><span>2005M</span></td>
+                <td class=" px-4 "><span>3000k</span></td>
+                <td class=" px-4 "><span>20M</span></td>
+                <td class=" px-4 "><span>8.1M</span></td>
+                <td class=" px-4 "><span>10.1K</span></td>
+                <td class=" px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class=" px-4 ">1</td>
+                <td class=" px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+            <tr>
+                <td class="px-4 ">1</td>
+                <td class="px-4 ">
+                    <a href="./channelsection.html" class="channel-icon">
+                        <img style="border-radius: 12px;" src="./pic/asidepic.jpg" alt="al picture" height="50"
+                            width="70" class="class thumanil-img">
+                        <H6>Alan thapa </H6>
+                    </a>
+                </td>
+                <td class="px-4 ">
+                    <p>Founder of Aone ,AI & nuraparts/nano,cyberparts ,share.com,aone park
+                        etc..</p>
+                </td>
+                <td class="px-4 "><span>200.1K</span></td>
+                <td class="px-4 "><span>2005M</span></td>
+                <td class="px-4 "><span>3000k</span></td>
+                <td class="px-4 "><span>20M</span></td>
+                <td class="px-4 "><span>8.1M</span></td>
+                <td class="px-4 "><span>10.1K</span></td>
+                <td class="px-4 "><span>Naha.</span></td>
+            </tr>
+
+        </table>
+        </div>
+
+
+
+
+        <style>
+            body {
+                background: #222222;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            .header {
+                background: crimson;
+                color: #fff;
+            }
+
+            th {
+                padding: 10px 0px;
+            }
+
+            td {
+                padding: 10px 0px;
+            }
+
+            tr {
+                background: rgb(226, 222, 222);
+            }
+
+            tr:hover {
+                background: crimson;
+                color: #fff;
+            }
+        </style>
+        <!-- <script src="search.js"></script> -->
+        <!-- these is for the search function  -->
+        <script>
+            const searchfun = () => {
+                let filter = document.getElementById('myInput').value.toUpperCase();
+                let Table = document.getElementById('Table');
+                let tr = Table.getElementsByTagName('tr');
+                for (var i = 0; i < tr.length; i++) {
+                    let td = tr[i].getElementsByTagName('td')[0];
+                    if (td) {
+                        let textvalue = td.textContent || td.innerHTML;
+                        if (textvalue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        }
+                        else {
+                            tr[i].style.display = "none";
+
+                        }
+                    }
+                }
+            }
+        </script>
+        <!--// these is end for  the search function  -->
+        <script>
+            const searchfun = () => {
+                let filter = document.getElementById('myInput').value.toUpperCase();
+                let article = document.getElementById('article');
+                let p = article.getElementsByTagName('p');
+                for (var i = 0; i < p.length; i++) {
+                    let p = p[i].getElementsByTagName('p')[0];
+                    if (p) {
+                        let textvalue = td.textContent || td.innerHTML;
+                        if (textvalue.toUpperCase().indexOf(filter) > -1) {
+                            p[i].style.display = "";
+                        }
+                        else {
+                            p[i].style.display = "none";
+
+                        }
+                    }
+                }
+
+            }
+
+        </script>
+    </body>
+
+</html>

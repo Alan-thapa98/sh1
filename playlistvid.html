@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>playlist vid</title>
+</head>
+<body>
+<div id='media-play-list'>
+<h2>Play list</h2>
+<ul id='play-list'>
+<li>
+<span class='play-item' onclick='loadVideo("./vid/Tony Stark _ Hall Of Fame  2.mp4", "./vid/Tony Stark _ Hall Of Fame  2.mp4");'>Parrots</span>
+</li>
+<li>
+<span class='play-item' onclick='loadVideo("paddle-wheel.webm",
+"paddle-wheel.mp4");'><video src="./vid/Tony Stark _ Hall Of Fame  2.mp4"></video></span>
+</li>
+<li>
+<span class='play-item' onclick='loadVideo("./vid/Tony Stark _ Hall Of Fame  2.mp4", "./vid/Tony Stark _ Hall Of Fame  2.mp4");'>Grass</span>
+</li>
+</ul>
+</div>
+<script type="text/javascript">
+	function loadVideo() {
+   for (var i = 0; i < arguments.length; i++) {
+      var file = arguments[i].split('.');
+      var ext = file[file.length - 1];
+      if (canPlayVideo(ext)) {
+         resetMediaPlayer();
+         mediaPlayer.src = arguments[i];
+         mediaPlayer.load();
+         break;
+      }
+   }
+}
+function canPlayVideo(ext) {
+   var ableToPlay = mediaPlayer.canPlayType('video/' + ext);
+   if (ableToPlay == '') return false;
+   else return true;
+}
+</script>
+
+
+</body>
+</html>
